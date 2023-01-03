@@ -8,12 +8,12 @@ public class GreetingController {
 
 	@RequestMapping("/")
 	public String greeting() {
-		return "Greetings!! from spring boot!!";
+		return "Greetings!! from spring boot demo-5 !!";
 	}
 
     @RequestMapping("/hello")
 	public String greetings() {
-		return "Hello!! from spring boot!!";
+		return "Hello!! from spring boot from spring demo-5 !!";
 	}
 
 }
